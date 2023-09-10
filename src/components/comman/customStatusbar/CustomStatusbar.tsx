@@ -1,6 +1,6 @@
 import React from 'react';
 import {StatusBar, View} from 'react-native';
-import {CustomStatusProps} from './customStatusbar.interface';
+import {CustomStatusProps} from './customStatusbarProps';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import colors from '../../../theme/colors';
 

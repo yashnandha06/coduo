@@ -1,9 +1,7 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {Text, View} from 'react-native';
 import {RootStackParams} from './rootStackParams';
 import Login from '../../screens/login/Login';
 import Intro from '../../screens/intro/Intro';
-import colors from '../../theme/colors';
 import ForgotPassword from '../../screens/forgotPassword/ForgotPassword';
 import SignUp from '../../screens/signUp/SignUp';
 

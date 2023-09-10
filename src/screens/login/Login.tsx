@@ -14,7 +14,7 @@ import CustomStatusbar from '../../components/comman/customStatusbar/CustomStatu
 import InputContainer from '../../components/comman/inputContainer/InputContainer';
 import Button from '../../components/comman/Button/Button';
 import OrLine from '../../components/comman/orLine/OrLine';
-import LoginController from './useLogin';
+import useLogin from './useLogin';
 
 const Login = () => {
   const {
@@ -22,7 +22,7 @@ const Login = () => {
     onClickSignUp,
     secureTextEntry,
     setSecureTextEntry,
-  } = LoginController({});
+  } = useLogin();
   return (
     <View style={style.container}>
       <CustomStatusbar translucent={false} />

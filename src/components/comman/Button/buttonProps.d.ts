@@ -7,7 +7,7 @@ import {
   ColorValue,
 } from 'react-native';
 
-export interface ButtonProps {
+interface ButtonProps {
   label: string;
   containerStyle?: StyleProp<ViewStyle> | undefined;
   isLoading?: boolean;

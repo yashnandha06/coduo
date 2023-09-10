@@ -1,3 +1,3 @@
 export interface loginHookProps {}
 
-export interface loginProps {}
+interface loginProps {}

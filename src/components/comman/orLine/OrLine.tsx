@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {View, Text, TextStyle} from 'react-native';
-import {OrLineProps} from './orLine.Props';
+import {OrLineProps} from './orLineProps';
 import {Style} from './orLine.style';
 
 const OrLine: FC<OrLineProps> = (props: OrLineProps) => {

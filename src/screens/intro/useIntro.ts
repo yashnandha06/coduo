@@ -1,10 +1,10 @@
 import {Dimensions, ScrollView} from 'react-native';
-import {introHookProps} from './intro.props';
 import {useRef, useState, useEffect} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {RootStackParams} from '../../navigation/stacks/rootStackParams';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
-import {useAuthNavigation} from '../../hooks/useAuthNavigation';
+import {useAuthNavigation, useAuthRoute} from '../../hooks/useAppNavigation';
+import {introHookProps} from './introProps';
 
 const useIntro = ({}: introHookProps) => {
   const navigation = useAuthNavigation();

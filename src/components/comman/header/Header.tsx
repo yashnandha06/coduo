@@ -1,7 +1,7 @@
 import {View, Text, TouchableOpacity} from 'react-native';
 import React, {FC} from 'react';
 import {Styles} from './header.style';
-import {headerProps} from './header.props';
+import {headerProps} from './headerProps';
 import SvgIndex from '../../../assets/svgIndex';
 
 const Header: FC<headerProps> = ({title, leftIcon, rightIcon}: headerProps) => {

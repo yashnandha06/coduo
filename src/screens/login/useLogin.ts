@@ -1,12 +1,14 @@
 import React, {useState} from 'react';
-import {useAuthNavigation} from '../../hooks/useAuthNavigation';
-import {loginHookProps} from './login.props';
+import {useAuthNavigation} from '../../hooks/useAppNavigation';
+import {loginHookProps} from './loginProps';
 
-const LoginController = (props: loginHookProps) => {
+const useLogin = () => {
   const [secureTextEntry, setSecureTextEntry] = useState<boolean>(true);
   const navigation = useAuthNavigation();
   const onClickForgotPassword = () => {
-    navigation.navigate('forgotPassword');
+    navigation.navigate('forgotPassword', {
+      type: 'ForgotPassword',
+    });
   };
 
   const onClickSignUp = () => {
@@ -20,4 +22,4 @@ const LoginController = (props: loginHookProps) => {
   };
 };
 
-export default LoginController;
+export default useLogin;

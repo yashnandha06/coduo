@@ -1,6 +1,6 @@
 import {KeyboardType, GestureResponderEvent} from 'react-native';
 
-export interface inputContainerProps {
+interface inputContainerProps {
   placeholder?: string | undefined;
   label?: string | undefined;
   autoCorrect?: boolean;

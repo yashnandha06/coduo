@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import React, {FC} from 'react';
 import style from './inputContainer.style';
-import {inputContainerProps} from './inputContainer.props';
+import {inputContainerProps} from './inputContainerProps';
 import SvgIndex from '../../../assets/svgIndex';
 
 const InputContainer: FC<inputContainerProps> = (
